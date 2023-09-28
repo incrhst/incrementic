@@ -1,0 +1,55 @@
+[build]
+publish = "public"
+command = "./build.sh"
+functions = "functions"
+
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+ [plugins.inputs]
+  exclude = [
+    # By file Path
+    './public/countries/',
+    './public/404.html',
+    './public/401/',
+    './public/style-guide/',
+    './public/admin/',
+    './public/buy-content/new-releaseszzzz/',
+    './public/buy-content/buy-content-from-us/',
+    './public/articles/',
+    './public/find-a-reporter-2/',
+    './public/find-a-reporter-copy/',
+    './public/newtest/',
+    './public/faqs/',
+    './public/faqs/',
+    './public/genres/',
+    './public/producers/',
+    './public/tags/'
+  ]
+
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
+
+
+[[redirects]]
+  from = "/*"
+  to = "https://incrementic.webflow.io/:splat"
+  status = 200
+  force = true
