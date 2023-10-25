@@ -36,6 +36,12 @@ package = "@netlify/plugin-sitemap"
   force = true
 
 [[redirects]]
+  from = "/feed"
+  to = "https://18degreesnorthtv.substack.com/feed"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/robots.txt"
   to = "/robots.txt"
   status = 200
