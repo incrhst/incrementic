@@ -48,8 +48,8 @@ package = "@netlify/plugin-sitemap"
   force = true
 
 [[redirects]]
-  from = "/davidbain.vcf"
-  to = "/davidbain.vcf"
+  from = "/contact/davidbain.vcf"
+  to = "/contact/davidbain.vcf"
   status = 200
   force = true
 

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2023-11-28T00:00:00Z
+N:Bain;David
+FN:David Bain
+TITLE:Innovation Design
+ORG:Incrementic
+URL:https://incrementic.com
+EMAIL;TYPE=INTERNET:david.bain@incrementic.com
+TEL;TYPE=voice,cell,pref:+18764755824
+END:VCARD
