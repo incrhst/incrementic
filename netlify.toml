@@ -48,6 +48,12 @@ package = "@netlify/plugin-sitemap"
   force = true
 
 [[redirects]]
+  from = "/davidbain.vcf"
+  to = "/davidbain.vcf"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/slink/*"
   to = "https://18degreesnorthtv.substack.com/p/:splat"
   status = 200
