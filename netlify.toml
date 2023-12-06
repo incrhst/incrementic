@@ -73,7 +73,7 @@ package = "@netlify/plugin-sitemap"
 
 [[redirects]]
   from = "/product-team-quiz"
-  to = "https://david-ljbraakl.scoreapp.com/"
+  to = "https://david-tgdtta1o.scoreapp.com/"
   status = 301
   force = true
 
