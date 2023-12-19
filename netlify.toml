@@ -83,6 +83,12 @@ package = "@netlify/plugin-sitemap"
   status = 301
   force = true
 
+[[redirects]]
+  from = "/AudienceContentCraft"
+  to = "https://bigin.zoho.com/crm/WebFormServeServlet?rid=2c1ba3dd5ab1bf5217c28cbaa41089a38a900384fad241ff0acfaad0af15ea8c0adc66efb95555204c1be882f832566cgid7e15e6bc29d7d91ff7765aae847f1bbd28fe71e109f7dbf38bef87ffc85d45a3"
+  status = 301
+  force = true
+
 
 [[redirects]]
   from = "/*"
