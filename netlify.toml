@@ -1,10 +1,12 @@
+[build.environment]
+  PHP_ENABLED = "false"
+  RUBY_ENABLED = "false"
+  
 [build]
 publish = "public"
 command = "./build.sh"
 functions = "functions"
-[build.environment]
-  PHP_ENABLED = "false"
-  RUBY_ENABLED = "false"
+
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
