@@ -50,12 +50,12 @@ package = "@netlify/plugin-sitemap"
 [[redirects]]
   from = "/fraction/*"
   to = "https://incrementic.com/fractional-cto"
-  status = 301
+  status = 302
 
 [[redirects]]
   from = "/fractional/*"
   to = "https://incrementic.com/fractional-cto"
-  status = 301
+  status = 302
   force = true
 
 [[redirects]]
