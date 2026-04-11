@@ -96,6 +96,12 @@ package = "@netlify/plugin-sitemap"
   force = true
 
 [[redirects]]
+  from = "/ai"
+  to = "https://ai.incrementic.com"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/calendar"
   to = "https://calendly.com/incrementic"
   status = 301
